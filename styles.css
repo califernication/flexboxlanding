@@ -1,0 +1,31 @@
+* {
+    font-family: "Lucida Grande";
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 18px;
+}
+
+.header .links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 18px;
+}
+
+.header .links a:visited {
+    color: #E5E7EB;
+}
